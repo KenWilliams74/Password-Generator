@@ -25,3 +25,10 @@ section {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 800px) {
+    header, body, section, .container, .card-body {
+      min-width: 100%;
+      float: left;
+    }
+  }
