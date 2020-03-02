@@ -47,9 +47,9 @@ function generatePassword() {
     specialCharacters = null;
   }
 
-  if(upper, lower, numbers, special === false) {
+  if(upper + lower + numbers + special === false) {
     alert("You did not select at least one of the criteria options. Please try again.");
-    return;
+    
   }
 
 
