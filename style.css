@@ -26,9 +26,14 @@ section {
     margin-bottom: 20px;
 }
 
+.phone {
+    width: 42rem;
+}
+
 @media screen and (max-width: 800px) {
-    header, body, section, .container, .card-body {
+    header, body, section, .container, .card-body, .phone {
       min-width: 100%;
       float: left;
+      width: 10rem;
     }
   }
