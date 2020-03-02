@@ -1,0 +1,27 @@
+header {
+    padding-top: 10%;
+    padding-bottom:5%;
+    text-shadow: 2px 2px white;
+}
+
+body {
+    font-family: 'Nunito';
+    background-color: lightgray;
+ 
+}
+
+section {
+    opacity:90%;
+}
+
+.container {
+    text-align: center;
+    width: 50%;
+}
+
+.card-body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
